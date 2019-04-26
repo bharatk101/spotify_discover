@@ -141,3 +141,7 @@ pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/python,virtualenv
  
+venv
+*.pyc
+.DS_Store
+.env
