@@ -1,0 +1,9 @@
+@page {
+size: A3;
+margin: 0;
+}
+@media print {
+html, body {
+width: 1700px;
+}
+}
