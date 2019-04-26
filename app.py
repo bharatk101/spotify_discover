@@ -25,7 +25,7 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 # init app
 app = dash.Dash(__name__)
 
-server = app.server
+
 
 app.index_string = '''
 <!DOCTYPE html>
@@ -189,7 +189,7 @@ def getTrackFeatures(song_id):
     return df_features
 
 
-
+server = app.server
 
 if __name__ == '__main__':
     app.run_server(debug=True)
